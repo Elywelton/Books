@@ -1,0 +1,114 @@
+2016-06-06 17:20:09,125 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [books.Book : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:276)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at books.BookController.tt__save_closure9_closure14(BookController.groovy:43)
+	at books.BookController.tt__save_closure9_closure14(BookController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:417)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:142)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:57)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at books.BookController.$tt__save(BookController.groovy:40)
+	at books.BookController.save_closure4(BookController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate$2.doInTransaction(GrailsTransactionTemplate.groovy:88)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:85)
+	at books.BookControllerSpec.Test the save action correctly persists an instance(BookControllerSpec.groovy:54)
+2016-06-06 17:20:09,130 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [books.Book : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at books.BookController.tt__save_closure9_closure14(BookController.groovy:43)
+	at books.BookController.$tt__save(BookController.groovy:40)
+	at books.BookControllerSpec.Test the save action correctly persists an instance(BookControllerSpec.groovy:54)
+2016-06-06 17:20:09,132 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [books.Book : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at books.BookController.tt__save_closure9_closure14(BookController.groovy:43)
+	at books.BookController.$tt__save(BookController.groovy:40)
+	at books.BookControllerSpec.Test the save action correctly persists an instance(BookControllerSpec.groovy:54)
+2016-06-06 17:20:09,133 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [books.Book : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at books.BookController.tt__save_closure9_closure14(BookController.groovy:43)
+	at books.BookController.$tt__save(BookController.groovy:40)
+	at books.BookControllerSpec.Test the save action correctly persists an instance(BookControllerSpec.groovy:54)
+2016-06-06 17:20:09,141 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [books.Book : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at books.BookController.tt__save_closure9_closure14(BookController.groovy:43)
+	at books.BookController.$tt__save(BookController.groovy:40)
+	at books.BookControllerSpec.Test the save action correctly persists an instance(BookControllerSpec.groovy:54)
+2016-06-06 17:20:09,141 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [books.Book : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at books.BookController.tt__save_closure9_closure14(BookController.groovy:43)
+	at books.BookController.$tt__save(BookController.groovy:40)
+	at books.BookControllerSpec.Test the save action correctly persists an instance(BookControllerSpec.groovy:54)
+2016-06-06 17:20:09,735 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at books.BookControllerSpec.Test the update action performs an update on a valid domain instance(BookControllerSpec.groovy:122)
+2016-06-06 17:20:09,736 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at books.BookControllerSpec.Test the update action performs an update on a valid domain instance(BookControllerSpec.groovy:122)
+2016-06-06 17:20:09,736 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at books.BookControllerSpec.Test the update action performs an update on a valid domain instance(BookControllerSpec.groovy:122)
+2016-06-06 17:20:09,736 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at books.BookControllerSpec.Test the update action performs an update on a valid domain instance(BookControllerSpec.groovy:122)
+2016-06-06 17:20:09,736 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at books.BookControllerSpec.Test the update action performs an update on a valid domain instance(BookControllerSpec.groovy:122)
+2016-06-06 17:20:09,736 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at books.BookControllerSpec.Test the update action performs an update on a valid domain instance(BookControllerSpec.groovy:122)
+2016-06-06 17:20:09,805 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Book.count() == 1
+     |       |
+     0       false
+
+	at books.BookControllerSpec.Test that the delete action deletes an instance if it exists(BookControllerSpec.groovy:142)
+2016-06-06 17:20:09,810 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Book.count() == 1
+     |       |
+     0       false
+
+	at books.BookControllerSpec.Test that the delete action deletes an instance if it exists(BookControllerSpec.groovy:142)
+2016-06-06 17:20:09,810 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Book.count() == 1
+     |       |
+     0       false
+
+	at books.BookControllerSpec.Test that the delete action deletes an instance if it exists(BookControllerSpec.groovy:142)
+2016-06-06 17:20:09,810 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Book.count() == 1
+     |       |
+     0       false
+
+	at books.BookControllerSpec.Test that the delete action deletes an instance if it exists(BookControllerSpec.groovy:142)
+2016-06-06 17:20:09,810 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Book.count() == 1
+     |       |
+     0       false
+
+	at books.BookControllerSpec.Test that the delete action deletes an instance if it exists(BookControllerSpec.groovy:142)
+2016-06-06 17:20:09,810 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Book.count() == 1
+     |       |
+     0       false
+
+	at books.BookControllerSpec.Test that the delete action deletes an instance if it exists(BookControllerSpec.groovy:142)
